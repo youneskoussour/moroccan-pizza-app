@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M0,0h1080v1920h-1080z" />
+
+    <!-- Moroccan Pattern Background -->
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:fillAlpha="0.05"
+        android:pathData="M540,200m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <path
+        android:fillColor="@color/colorAccent"
+        android:fillAlpha="0.05"
+        android:pathData="M240,400m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:fillAlpha="0.05"
+        android:pathData="M840,400m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <path
+        android:fillColor="@color/colorAccent"
+        android:fillAlpha="0.05"
+        android:pathData="M540,600m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:fillAlpha="0.05"
+        android:pathData="M240,800m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <path
+        android:fillColor="@color/colorAccent"
+        android:fillAlpha="0.05"
+        android:pathData="M840,800m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:fillAlpha="0.05"
+        android:pathData="M540,1000m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <path
+        android:fillColor="@color/colorAccent"
+        android:fillAlpha="0.05"
+        android:pathData="M240,1200m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:fillAlpha="0.05"
+        android:pathData="M840,1200m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <path
+        android:fillColor="@color/colorAccent"
+        android:fillAlpha="0.05"
+        android:pathData="M540,1400m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:fillAlpha="0.05"
+        android:pathData="M240,1600m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <path
+        android:fillColor="@color/colorAccent"
+        android:fillAlpha="0.05"
+        android:pathData="M840,1600m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+
+    <!-- Moroccan Arch at Bottom -->
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:fillAlpha="0.2"
+        android:pathData="M0,1720c0,0 200,-100 540,-100s540,100 540,100v200H0v-200z" />
+
+</vector>

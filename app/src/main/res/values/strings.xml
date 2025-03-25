@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Basics -->
+    <string name="app_name">Moroccan Pizza</string>
+    <string name="app_tagline">Authentic flavors in every bite</string>
+    <string name="app_description">Moroccan Pizza brings you the authentic flavors of Morocco, combining traditional spices and ingredients with delicious pizza in a modern way. Order now and experience a taste of Morocco!</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="cart">Cart</string>
+    <string name="orders">Orders</string>
+    <string name="profile">Profile</string>
+    <string name="profile_arabic">الملف الشخصي</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_message">Welcome to Moroccan Pizza</string>
+    <string name="welcome_message_arabic">مرحبا بكم في بيتزا المغربية</string>
+    <string name="featured_pizzas">Featured Pizzas</string>
+    <string name="view_all">View All</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="view_cart">View Cart</string>
+    <string name="track_order">Track Order</string>
+    <string name="promotional_banner">Promotional Banner</string>
+
+    <!-- Menu Screen -->
+    <string name="menu_title">Our Menu</string>
+    <string name="menu_subtitle_arabic">قائمتنا</string>
+    <string name="search_hint">Search for pizzas…</string>
+    <string name="no_pizzas_found">No pizzas found</string>
+    <string name="pizza_image">Pizza Image</string>
+    <string name="spicy">Spicy</string>
+    <string name="vegetarian">Vegetarian</string>
+
+    <!-- Cart -->
+    <string name="your_cart">Your Cart</string>
+    <string name="your_cart_arabic">سلة التسوق الخاصة بك</string>
+    <string name="cart_empty">Your cart is empty</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="delivery_fee">Delivery Fee</string>
+    <string name="total">Total</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="checkout">Checkout</string>
+    <string name="checkout_arabic">الدفع</string>
+    <string name="increase_quantity">Increase Quantity</string>
+    <string name="decrease_quantity">Decrease Quantity</string>
+    <string name="remove_item">Remove Item</string>
+
+    <!-- Orders -->
+    <string name="your_orders">Your Orders</string>
+    <string name="your_orders_arabic">طلباتك</string>
+    <string name="no_orders_found">No orders found</string>
+    <string name="track">Track</string>
+    <string name="order_history">Order History</string>
+
+    <!-- Tracking -->
+    <string name="delivery_status">Delivery Status</string>
+    <string name="delivery_person">Delivery Person</string>
+    <string name="contact">Contact</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="tracking_progress_text">from kitchen to your door</string>
+
+    <!-- Support -->
+    <string name="customer_support">Customer Support</string>
+    <string name="how_can_we_help">How can we help you today?</string>
+    <string name="call_support">Call Support</string>
+    <string name="call_support_desc">Speak directly with our support team</string>
+    <string name="email_support">Email Support</string>
+    <string name="email_support_desc">Send us an email with your query</string>
+    <string name="chat_support">Chat Support</string>
+    <string name="chat_support_desc">Chat with our support representatives</string>
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="faq_desc">Find answers to common questions</string>
+    <string name="type_your_message">Type your message here…</string>
+    <string name="send">Send</string>
+
+    <!-- Profile -->
+    <string name="app_logo">App Logo</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="actions">Actions</string>
+    <string name="logout">Logout</string>
+
+    <!-- Checkout -->
+    <string name="delivery_details">Delivery Details</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="cash_on_delivery">Cash on Delivery</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_date">Expiry Date (MM/YY)</string>
+    <string name="cvv">CVV</string>
+    <string name="order_items">Order Items</string>
+    <string name="edit_cart">Edit Cart</string>
+    <string name="place_order">Place Order</string>
+</resources>

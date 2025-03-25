@@ -1,0 +1,52 @@
+modules = ["java"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Android App Server"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "android-app-preview"
+
+[[workflows.workflow]]
+name = "Android App Server"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "./gradlew assembleDebug && python -m http.server 5000"
+waitForPort = 5000
+
+[[workflows.workflow]]
+name = "android-app-preview"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "./gradlew installDebug && adb shell am start -n com.example.moroccanpizza/.SplashActivity"
+
+[deployment]
+run = ["sh", "-c", "./gradlew assembleDebug && python -m http.server 5000"]
